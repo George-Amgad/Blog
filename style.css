@@ -6,15 +6,29 @@ body {
 }
 
 /* Navigation Bar styling */
-header img {
-    height: 80px;
-}
 header {
+  text-align: center;
   background-color: white;   
-    height: 80px;
+  height: 65px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-nav {
-  display:inline;
+h4 {
+  font-size: 1.5rem;
+  display: inline;
+  background-color: #6c89c9; /* Light blue */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px 10px; /* Padding */
+}
+h4 a {
+  color: white; /* White text */
+  text-decoration: none; /* No underline */
+}
+h4 a:hover {
+  background-color: #00539C; /* Change background on hover */
+  text-decoration: underline; /* Underline on hover */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px 10px; /* Padding */
 }
 h1 {
   text-align: center;
@@ -31,4 +45,28 @@ article {
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+/* Form */
+form {
+  text-align: center;
+}
+label {
+  font-size: 1.2rem;
+  font-weight:bold;
+}
+input[type="text"],input[type="password"] {
+  padding:0.2rem;
+  border-radius: 10px;
+}
+button {
+  background-color: #6c89c9; /* Deep blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #00539C; /* Deep blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
