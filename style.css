@@ -7,9 +7,12 @@ body {
 
 /* Header styling */
 header {
-  text-align: center;
+  background-color: white;
+   
+    height: 80px;
 }
 header h1 {
+  text-align: center;
   font-size: 4rem;
   color: #00539C;       /* Deep blue for emphasis */
   letter-spacing: 2px;
